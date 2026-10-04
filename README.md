@@ -25,7 +25,7 @@ The command station sends a turnout command, the Arduino decodes it and slowly m
 
 ### DCC input circuit
 
-![DCC input schematic](docs/schematic.png)
+![DCC input schematic](docs/schematic.PNG)
 
 The DCC track signal drives the LED inside the 6N137 through the 1 kΩ resistor. The 1N4148 diode protects the LED during the negative half of the DCC signal. On the output side, the 10 kΩ pull-up gives a clean 5 V logic signal on **Arduino pin 2**.
 
